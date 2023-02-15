@@ -1,0 +1,123 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 25px 0 15px 0;
+}
+
+.main-header img {
+    width: 150px;
+}
+
+.location {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eae8e8;
+    box-shadow: inset 0 17px 10px -20px rgba(31, 31, 31, 0.8);
+}
+
+.location-icon {
+    color: rgb(63, 62, 62);
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.location p {
+    color: rgb(63, 62, 62);
+    font-size: 15px;
+    font-weight: 450;
+}
+
+.hero {
+    background-color: #f3f2f2;
+    width: 100%;
+
+    &__container {
+        padding: 40px 30px 50px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__headline {
+        font-size: 21px;
+        padding-bottom: 30px;
+    }
+
+    &__subheadline {
+        font-weight: lighter;
+        font-size: 17px;
+        padding-bottom: 25px;
+        display: block;
+        text-align: center;
+    }
+
+    &__button {
+        text-decoration: none;
+        background-image: linear-gradient(355deg, #9356DC, #FF79DA);
+        color: white;
+        text-align: center;
+        padding: 17px 27px;
+        border-radius: 40px;
+        box-shadow: 0 3px 10px #999999;
+        font-size: 16px;
+    }
+}
+
+.info {
+    padding: 40px 20px;
+}
+
+.info h3 {
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.list-group {
+    list-style: none;
+    outline: none;
+
+    &__number {
+        color: white;
+        background-color: #9356DC;
+        padding: 6px 9px;
+        border-radius: 50px;
+        font-size: 11px;
+        margin: -10px;
+    }
+
+    &__icon {
+        color: #737070;
+        padding-left: 30px;
+        font-size: 20px;
+    }
+
+    &__text {
+        font-weight: 500;
+        font-size: 16px;
+        padding: 0 20px;
+    }
+}
+
+.info ul li a {
+    display: flex;
+    align-items: center;
+    background-color: #f9f7f7;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px #cac9c9;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 23px 0;
+    width: 300px;
+}
