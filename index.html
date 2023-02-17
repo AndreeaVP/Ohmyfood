@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--General Info-->
+    <title>Oh my food</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device width, initial-scale=1.0">
+    <meta name="description" content="Discover top-of-the-art restaurants we picked for you">
+
+    <!--Link to CSS Folder ("STYLESHEET")-->
+    <link href="css/normalize.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+
+    <!--Link to Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--Link to Font Awesome-->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+        integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/7d8b29d947.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Header Section-->
+    <header class="main-header">
+        <img src="images/ohmyfood.png" alt="Oh my food">
+    </header>
+
+    <!--Location Section-->
+    <div class="location">
+        <i class="fa-sharp fa-solid fa-location-dot location-icon"></i>
+        <p>Paris, Belleville</p>
+    </div>
+
+    <!--Hero Section-->
+    <div class="hero">
+        <div class="hero__container">
+            <h3 class="hero__headline">Book the menu you like</h3>
+            <span class="hero__subheadline">Discover top-of-the-art restaurants we <br> picked for you</span>
+            <a href="#" class="hero__button">Explore our restaurants</a>
+        </div>
+    </div>
+
+    <!--Info Section-->
+    <section class="info">
+        <h3>How it works</h3>
+        <ul class="list-group">
+            <!-- li:nth-child(1)-->
+            <li>
+                <a href="#">
+                    <div class="list-group__number">1</div>
+                    <div class="list-group__icon">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                    </div>
+                    <span class="list-group__text">Choose a restaurant</span>
+                </a>
+            </li>
+            <!-- li:nth-child(2)-->
+            <li>
+                <a href="#">
+                    <div class="list-group__number">2</div>
+                    <div class="list-group__icon">
+                        <i class="fa-sharp fa-solid fa-list-ul"></i>
+                    </div>
+                    <span class="list-group__text">Create your menu</span>
+                </a>
+            </li>
+            <!-- li:nth-child(3)-->
+            <li>
+                <a href="#">
+                    <div class="list-group__number">3</div>
+                    <div class="list-group__icon">
+                        <i class="fa-solid fa-store"></i>
+                    </div>
+                    <span class="list-group__text">Go enjoy it at the restaurant</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <!--Main Section-->
+    <section class="restaurants">
+        <header class="restaurants__header">
+            <h3>Restaurants</h3>
+        </header>
+        <div class="restaurant-cards"></div>
+        <article class=""></article>
+    </section>
+</body>
