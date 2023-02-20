@@ -1,0 +1,24 @@
+.menu1-image img {
+    max-width: 100%;
+}
+
+.menu1 {
+    padding: 30px 20px;
+    background-color: #f3f2f2;
+    border-radius: 40px 40px 0 0;
+}
+
+.menu1-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h2 {
+        font-family: 'Shrikhand', sans-serif;
+        font-size: 22px;
+    }
+
+    i {
+        font-size: 22px;
+    }
+}
