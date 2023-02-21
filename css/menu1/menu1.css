@@ -1,11 +1,19 @@
 .menu1-image img {
-  max-width: 100%;
+  width: 100%;
+  height: 30vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  display: block;
 }
 
 .menu1 {
+  position: relative;
+  margin-top: -30px;
   padding: 30px 20px;
   background-color: #f3f2f2;
-  border-radius: 40px 40px 0 0;
+  border-radius: 35px 35px 0 0;
 }
 
 .menu1-header {
@@ -15,9 +23,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  position: relative;
 }
 
 .menu1-header h2 {
@@ -26,6 +32,50 @@
 }
 
 .menu1-header i {
+  position: absolute;
+  right: 20px;
   font-size: 22px;
+  color: black;
+}
+
+.menu1-header .fa-solid {
+  color: transparent;
+  background-image: linear-gradient(40deg, #FF79DA, #9356DC);
+  -webkit-background-clip: text;
+  background-clip: text;
+  opacity: 0;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.menu1-header .fa-solid:hover {
+  opacity: 1;
+}
+
+.menu1-header i {
+  position: absolute;
+  right: 20px;
+  font-size: 22px;
+  color: black;
+}
+
+.menu1-header .fa-solid {
+  color: transparent;
+  background-image: linear-gradient(40deg, #FF79DA, #9356DC);
+  -webkit-background-clip: text;
+  background-clip: text;
+  opacity: 0;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.menu1-header .fa-solid:hover {
+  opacity: 1;
+}
+
+.menu1-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=menu1.css.map */
