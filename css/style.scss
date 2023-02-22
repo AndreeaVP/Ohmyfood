@@ -1,7 +1,11 @@
-@import './menu1/menu1.scss';
-@import './menu2/menu2.scss';
-@import './menu3/menu3.scss';
-@import './menu4/menu4.scss';
+@import './_menu1.scss';
+@import './_menu2.scss';
+@import './_menu3.scss';
+@import './_menu4.scss';
+
+$primary-color:#9356DC;
+$secondary-color:#FF79DA;
+$tertiary-color:#99E2D0;
 
 html {
     box-sizing: border-box;
