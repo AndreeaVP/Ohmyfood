@@ -2,7 +2,8 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 25px 0 15px 0;
+    margin: 20px 0 15px 0;
+    position: relative;
 
     img {
         width: 150px;
@@ -52,4 +53,5 @@
     cursor: pointer;
     padding: 13px 0;
     width: 150px;
+    opacity: 1;
 }

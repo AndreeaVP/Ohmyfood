@@ -110,10 +110,11 @@
             box-shadow: 0 3px 10px #999999;
             font-size: 16px;
             cursor: pointer;
+            transition: all 0.5s;
 
             &:hover {
                 box-shadow: 0 5px 10px 2px #717070;
-                background-image: linear-gradient(355deg, #9c5ee9, #f988d9);
+                opacity: 0.9;
             }
         }
     }
@@ -206,6 +207,7 @@
         text-decoration: none;
         padding: 23px 0;
         cursor: pointer;
+        transition: all 0.3s;
     }
 
     .info ul li a:hover {
@@ -267,6 +269,7 @@
         margin-bottom: 20px;
         position: relative;
         cursor: pointer;
+        transition: all 0.5s;
 
         img {
             height: 160px;
@@ -318,7 +321,7 @@
                 -webkit-background-clip: text;
                 background-clip: text;
                 opacity: 0;
-                transition: all 200ms ease-in-out;
+                transition: all 300ms ease-in-out;
             }
 
             &:hover .fa-solid {
