@@ -6,7 +6,39 @@
 @import './_variables.scss';
 
 #homepage {
-    font-family: 'Roboto', sans-serif;
+    .page-animation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: $tertiary-color;
+        inset: 0;
+        z-index: 1;
+        position: fixed;
+        animation: end-loader 0.3s ease-in-out 3s both;
+
+        &__loader {
+            position: absolute;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            animation: ring 1s linear infinite;
+
+            &__loader:before {
+                position: absolute;
+                content: '';
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 100%;
+                border-radius: 50%;
+                box-shadow: rgba(255, 255, 255, 0.3);
+            }
+        }
+    }
+
+    font-family: 'Roboto',
+    sans-serif;
 
     html {
         box-sizing: border-box;
