@@ -6,7 +6,7 @@
   "scripts": {
     "compile:css": "sass --no-source-map css/style.scss:css/style.css --style expanded",
     "prefix:css": "postcss css/style.css -u autoprefixer -b \"last 10 versions\" -o css/style.prefixed.css",
-    "compress:css": "sass --no-source-map css/style.prefixed.css:css/style.min.css --style compressed",
+    "compress:css": "sass --no-source-map css/style.css:css/style.min.css --style compressed",
     "build": "npm-run-all compile:css prefix:css compress:css"
   },
   "repository": {
