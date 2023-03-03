@@ -34,15 +34,19 @@ Firefox, and Safari.
 * Use of variables, mixins
 * Nesting
 
-## Git
+4. Git
 * git commit
 * git branch
 * git push
 * git pull
 
-## GitHub
+5. GitHub
 * Create a repository
 * GitHub Pages
+
+## Project Link
+
+https://AndreeaVP.github.io
 
 
 
