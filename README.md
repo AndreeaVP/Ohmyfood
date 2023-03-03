@@ -1,3 +1,5 @@
 # Ohmyfood
+
 INTEGRATE A MOBILE WEBSITE WITH ANIMATIONS IN CSS
-http://localhost:50300/index.html
+
+https://AndreeaVP.github.io
