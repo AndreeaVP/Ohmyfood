@@ -2,7 +2,7 @@
 
 ## Overview
 
-Ohmyfood is a new startup restaurant business. The goal was to develop a 100% mobile-friendly website listing restaurant menus.
+Ohmyfood is a startup restaurant business. The goal was to develop a 100% mobile-friendly website listing restaurant menus.
 The entire site has been built to be mobile, tablet and desktop responsive. Fully compatible with the latest desktop versions of Chrome,
 Firefox, and Safari.
 
@@ -11,6 +11,7 @@ Firefox, and Safari.
 * The development will have to be in CSS, without JavaScript.
 * No framework should be used; however, Sass would be a plus.
 * No CSS code should be applied via a style attribute in an HTML tag.
+* The effects must use CSS animations or transitions, no JavaScript, or library.
 * The pages will have to pass W3C validation in HTML and CSS without errors.
 
 
@@ -19,7 +20,7 @@ Firefox, and Safari.
 1. HTML
 * Semantic elements, tags
 * Attributes
-* Best practices: BEM convention
+* BEM convention
 
 2. CSS 
 * Order of importance
@@ -27,6 +28,7 @@ Firefox, and Safari.
 * Selectors
 * Positioning
 * Flexbox
+* Animations
 
 3. SASS
 * Use of variables, mixins
