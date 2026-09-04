@@ -1,5 +1,9 @@
 # Integrate a Mobile Website with Animations in CSS
 
+## Live Demo
+
+[View the live website](https://AndreeaVP.github.io)
+
 ## Overview
 
 Ohmyfood is a startup restaurant business. The goal was to develop a 100% mobile-friendly website listing restaurant menus.
@@ -43,10 +47,6 @@ Firefox, and Safari.
 5. GitHub
 * Create a repository
 * GitHub Pages
-
-## Project Link
-
-https://AndreeaVP.github.io
 
 
 
